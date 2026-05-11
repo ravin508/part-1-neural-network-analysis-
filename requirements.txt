@@ -1,0 +1,40 @@
+# Part 1: Customer Churn Prediction using Neural Network
+
+## Project Overview
+This project demonstrates building a **Feed-Forward Neural Network** to predict whether a customer will churn or not using PyTorch.
+
+## Dataset Information
+- **Filename**: `customer_churn_nn.csv`
+- **Number of Records**: 2000
+- **Target Variable**: `churn` (1 = Churned, 0 = Retained)
+- **Class Distribution**: Highly imbalanced (~98.45% retained, ~1.55% churned)
+
+## Features
+- **Categorical**: `region`, `plan_type`, `contract_type`, `payment_method`
+- **Numerical**: `tenure_months`, `monthly_charges_inr`, `avg_login_days_per_month`, `support_tickets_last_90_days`, etc.
+- `customer_id` is dropped as it is not a predictive feature.
+
+## Project Structure
+part_1_neural_network_analysis/
+├── notebook.ipynb
+├── README.md
+├── requirements.txt
+├── customer_churn_nn.csv
+├── data_dictionary.md
+└── results/
+└── model_comparison.csv
+
+
+## Technologies Used
+- Python 3
+- PyTorch
+- scikit-learn
+- Pandas, NumPy, Matplotlib, Seaborn
+
+## How to Run the Project
+
+1. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+
+   
