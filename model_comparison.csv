@@ -1,0 +1,4 @@
+Config,Layers,LR,Epochs,Accuracy
+Base,"[64,32]",0.001,100,0.975
+Deeper,"[128,64,32]",0.0005,150,0.98
+Simpler,[32],0.005,50,0.965
